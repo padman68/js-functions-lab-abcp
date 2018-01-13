@@ -4,16 +4,16 @@ function happyHolidays() {
 }
  
 function happyHolidaysTo(name) {
-  happyHolidaysTo("Jane")
+  happyHolidaysTo(Jane)
   return "Happy holidays, ${name}!"
 } 
 
-function happyHolidaysTo(name) {
-  
+function happyHolidaysTo(holiday, name) {
+  happyHolidaysTo(Thanksgiving, Jane)
   return `Happy ${holiday}, ${name}!`
 } 
 
-sayHelloTo('Isabel') // "Hello, Isabel!"
-sayHelloTo("Jane") // "Hello, Jane!"
-sayHelloTo("R2-D2") // "Hello, R2-D2!"
-sayHelloTo(1) // "Hello, 1!"
+function happyHolidaysTo(holiday, name) {
+  happyHolidaysTo(Thanksgiving, Jane)
+  return `Happy ${holiday}, ${name}!`
+} 
